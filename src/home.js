@@ -1,9 +1,10 @@
 
 // export a function that our home page inside the div
 export function createHome() {
+    const content = document.getElementById('content');
     const homeDiv = document.createElement('div');
     homeDiv.id = 'home-page';
-
+    
 
     // main text 
         const mainText = document.createElement('h1');
@@ -76,7 +77,7 @@ export function createHome() {
     imgContainer.appendChild(img);
     homeDiv.appendChild(imgContainer);
 
-    return homeDiv;
+    content.appendChild(homeDiv);
     
 }
 
