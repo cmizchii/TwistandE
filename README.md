@@ -59,7 +59,7 @@ src/
 ├── http://localhost:8080
 
 
-🎯 Learning Goals
+## 🎯 Learning Goals
 
 Practice DOM manipulation without frameworks
 
@@ -69,7 +69,7 @@ Learn Webpack bundling and setup
 
 Simulate multi-page navigation in a single-page app
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 Add animations and transitions
 
@@ -77,7 +77,7 @@ Improve responsiveness
 
 Deploy live using GitHub Pages
 
-👩🏽‍💻 Author
+## 👩🏽‍💻 Author
 
 Built by shima
 Self-taught developer learning modern frontend development ✨
