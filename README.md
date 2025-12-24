@@ -79,7 +79,7 @@ Deploy live using GitHub Pages
 
 ## 👩🏽‍💻 Author
 
-Built by shima
-Self-taught developer learning modern frontend development ✨
+Built by **shima**  
+Frontend developer focused on JavaScript and modern web tooling.
 
 
