@@ -1,0 +1,68 @@
+/* immporting fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Instrument+Sans:wght@400;700&display=swap');
+
+/* global styles */
+body {
+    margin: 0;
+    font-family: 'Instrument Sans', sans-serif; /* default text font */
+     font-weight: 700 ; /* default text weight */
+    background-color: #F5F2F2; /* main background color */
+    color: #2B2A2A; /* main font color */
+}
+
+/*button*/
+nav button {
+    font-size: 24px;           /* big text */
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 700;           /* bold */
+    color: #2B2A2A;             /* your font color */
+    background: none;           /* remove default button bg */
+    border: none;               /* remove border */
+    padding: 10px 20px;         /* keep padding so it’s still easy to click */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav button:hover {
+    color: #FEB05D;             /* hover effect for feedback */
+}
+
+
+#source-icon {
+    width: 142px;
+    height: 37px;
+}
+
+/*placing*/
+nav {
+    display: flex;
+    align-items: flex-start; /* we’ll use padding for vertical spacing */
+    background-color: #F5F2F2;
+    font-family: 'Instrument Sans', sans-serif;
+    padding: 52px 55px 0 55px; /* top 52px, left/right 55px, bottom 0 */
+    position: relative;
+}
+
+#logo {
+    width: 51px;
+    height: 63px;
+    margin-right: 298px; /* space from logo to Home button */
+}
+
+nav .button {
+    font-size: 24px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 138px; /* space between Home, Menu, About Us */
+}
+
+nav .button:last-of-type {
+    margin-right: 172px; /* space from About Us to GitHub icon */
+}
+
+#source-icon {
+    width: 142px;
+    height: 37px;
+}
