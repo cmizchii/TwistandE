@@ -29,13 +29,20 @@ This project was built to practice modular JavaScript, event handling, and bundl
 
 ## 📁 Project Structure
 
-src/
-├── index.js # Entry point & tab-switching logic
-├── home.js # Home page content
-├── menu.js # Menu page content
-├── about.js # About page content
-├── style.css # Styles
-├── template.html # HTML skeleton
+twistande/
+├── dist/            # build output
+├── public/          # static assets
+│   ├── images/
+│   └── icons/
+├── src/
+│   ├── index.js
+│   ├── home.js
+│   ├── menu.js
+│   ├── about.js
+│   └── style.css
+├── package.json
+├── webpack.config.js
+└── template.html
 
 ---
 
