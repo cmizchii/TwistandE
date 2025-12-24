@@ -4,65 +4,59 @@
 /* global styles */
 body {
     margin: 0;
-    font-family: 'Instrument Sans', sans-serif; /* default text font */
-     font-weight: 700 ; /* default text weight */
-    background-color: #F5F2F2; /* main background color */
-    color: #2B2A2A; /* main font color */
+    font-family: 'Instrument Sans', sans-serif; 
+     font-weight: 700 ; 
+    background-color: #F5F2F2;
+    color: #2B2A2A; 
 }
 
-/*button*/
-nav button {
-    font-size: 24px;           /* big text */
-    font-family: 'Instrument Sans', sans-serif;
-    font-weight: 700;           /* bold */
-    color: #2B2A2A;             /* your font color */
-    background: none;           /* remove default button bg */
-    border: none;               /* remove border */
-    padding: 10px 20px;         /* keep padding so it’s still easy to click */
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-nav button:hover {
-    color: #FEB05D;             /* hover effect for feedback */
-}
-
-
-#source-icon {
-    width: 142px;
-    height: 37px;
-}
-
-/*placing*/
+/* NAV BAR */
 nav {
     display: flex;
-    align-items: flex-start; /* we’ll use padding for vertical spacing */
+    justify-content: space-between; /* space logo, buttons div, GitHub icon equally */
+    align-items: flex-start;        
+    padding: 0 50px 0 50px;                /* 50px left and right margin */
     background-color: #F5F2F2;
     font-family: 'Instrument Sans', sans-serif;
-    padding: 52px 55px 0 55px; /* top 52px, left/right 55px, bottom 0 */
-    position: relative;
 }
 
+/* LOGO */
 #logo {
-    width: 51px;
-    height: 63px;
-    margin-right: 298px; /* space from logo to Home button */
+    width: 44px;
+    height: 54px;
+    margin-top: 2vb;  
+    margin-right: 18vb;
 }
 
-nav .button {
-    font-size: 24px;
-    font-weight: bold;
+/* BUTTONS CONTAINER */
+.nav-buttons {
+    display: flex;
+    gap: 170px;     /* space between Home, Menu, About Us */
+    margin-top: 0;  
+}
+
+/* BUTTONS */
+ button {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Instrument Sans', sans-serif;
+    color: #2B2A2A;
     background: none;
     border: none;
     cursor: pointer;
-    margin-right: 138px; /* space between Home, Menu, About Us */
+    margin-top: 4.5vb;
+    transition: color 0.3s ease;
 }
 
-nav .button:last-of-type {
-    margin-right: 172px; /* space from About Us to GitHub icon */
+button:hover {
+    color: #FEB05D;
 }
 
+/* GITHUB ICON */
 #source-icon {
-    width: 142px;
-    height: 37px;
+    width: 120px;
+    height: 32px;
+    margin-top: 4vb; 
+    margin-left: 6vb;
 }
+
