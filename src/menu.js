@@ -1,5 +1,3 @@
-
-
 //Cards class 
 
   class Card{
