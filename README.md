@@ -27,6 +27,11 @@ This project was built to practice modular JavaScript, event handling, and bundl
 
 ---
 
+## Live Demo
+Check it out [here](https://cmizchii.github.io/TwistandE/) 🚀
+
+---
+
 ## 📁 Project Structure
 
 twistande/
