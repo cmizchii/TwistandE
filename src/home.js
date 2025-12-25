@@ -58,7 +58,7 @@ export function createHome() {
 
     // image
         const img = document.createElement('img');
-        img.src = '/images/page1num1.png'; 
+        img.src = 'images/page1num1.jpg'; 
         img.alt = 'Noodles bowl';
 
 

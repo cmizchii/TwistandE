@@ -3,17 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://cmizchii.github.io/TwistandE/",
   "scripts": {
-  "start": "webpack serve --open",
-  "build": "webpack",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "copy-webpack-plugin": "^13.0.1",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.5",
     "style-loader": "^4.0.0",
     "webpack": "^5.104.1",

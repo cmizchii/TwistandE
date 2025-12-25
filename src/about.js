@@ -59,9 +59,9 @@ export  function createAbout() {
 //images
 
     const images = [
-        '/images/page3num1.png',
-        '/images/page3num2.jpg',
-        '/images/page3num3.png'
+        'images/page3num1.jpg',
+        'images/page3num2.jpg',
+        'images/page3num3.jpg'
     ];
 
     images.forEach(src => {

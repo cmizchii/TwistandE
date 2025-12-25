@@ -136,15 +136,15 @@ export  function createMenu() {
   //cards
 
           //card1
-          const card1 = new Card("/images/page2num1.png" , "Biangbiang noodles" , "Wide hand-pulled noodles with savory soy sauce and chili oil");
+          const card1 = new Card("images/page2num1.jpg" , "Biangbiang noodles" , "Wide hand-pulled noodles with savory soy sauce and chili oil");
           cardsContainer.appendChild(card1.render());
 
           //card2
-          const card2 = new Card("/images/page2num2.png" , "Ramen Carbonara" , "Creamy sauce, tender noodles, and a hint of smoky bacon");
+          const card2 = new Card("images/page2num2.jpg" , "Ramen Carbonara" , "Creamy sauce, tender noodles, and a hint of smoky bacon");
           cardsContainer.appendChild(card2.render());
 
           //card3
-          const card3 = new Card("/images/page2num3.png" , "Curry noodles" , "Quick, flavorful noodles in a rich, spicy curry broth");
+          const card3 = new Card("images/page2num3.jpg" , "Curry noodles" , "Quick, flavorful noodles in a rich, spicy curry broth");
           cardsContainer.appendChild(card3.render());
 
 
